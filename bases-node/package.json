@@ -1,0 +1,16 @@
+{
+  "name": "bases-node",
+  "version": "0.0.1",
+  "description": "E un a simple tabla de mutiplicar con arciivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "author": "Oscar graciano",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.0"
+  }
+}
