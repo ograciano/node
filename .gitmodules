@@ -1,3 +1,0 @@
-[submodule "websocket-typescript"]
-	path = websocket-typescript
-	url = https://github.com/ograciano/websocket-ts
