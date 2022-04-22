@@ -14,6 +14,7 @@ const existEmail = async (correo = '') => {
         throw new Error(`este correo: ${correo} ya esta registrado`)
     }
 }
+
 const existUsuario = async (id) => {
     const existeUsuario = await Usuario.findById(id);
     if (!existeUsuario) {
